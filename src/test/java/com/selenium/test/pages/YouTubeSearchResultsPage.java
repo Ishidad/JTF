@@ -21,11 +21,8 @@ public class YouTubeSearchResultsPage extends BasePage {
 
 
     public YouTubeSearchResultsPage(){
-        super(true);
-    }
+        super();
 
-    public YouTubeSearchResultsPage(boolean openPageByUrl) {
-        super(openPageByUrl);
     }
 
     @Override
